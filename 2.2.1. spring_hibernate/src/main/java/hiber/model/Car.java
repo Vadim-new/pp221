@@ -21,7 +21,7 @@ public class Car {
     @OneToOne(mappedBy = "userCar", cascade = {CascadeType.PERSIST, CascadeType.REFRESH})
     private User user;
 
-    public Car(){
+    public Car() {
 
     }
 
